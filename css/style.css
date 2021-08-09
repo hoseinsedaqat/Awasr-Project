@@ -1,0 +1,147 @@
+@font-face {
+    font-family: TeshrinBold;
+    src: url('../fonts/TeshrinAR+LT-Bold.otf');
+}
+
+@font-face {
+    font-family: TeshrinHairline;
+    src: url('../fonts/TeshrinAR+LT-Hairline.otf');
+}
+
+@font-face {
+    font-family: TeshrinLight;
+    src: url('../fonts/TeshrinAR+LT-Light.otf');
+}
+
+@font-face {
+    font-family: TeshrinTRegular;
+    src: url('../fonts/TeshrinAR+LT-Regular.otf');
+}
+
+body {
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l-header {
+    width: 100%;
+    height: 28.84px;
+    background: linear-gradient(90deg, #00B3B3 0.03%, #00B3B3 1.03%, #04AEB2 8.02%, #0F9FAE 18.02%, #2287A8 28.02%, #3C65A0 39.01%, #5E3A95 50.01%, #613694 51.01%, #7E2F91 63.01%, #A0268E 78%, #B5218C 91%, #BC1F8B 99.99%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 0 0 25rem;
+    padding: 0.4rem 0;
+}
+
+.awasr-logo {
+    width: 325px;
+    height: 80px;
+}
+
+.content {
+    height: 100vh;
+}
+
+.content h2:first-child {
+    font-family: TeshrinBold;
+    font-size: 55px;
+    color: #56575B;
+    margin: 0.5rem 0;
+}
+
+.content h2:nth-child(3) {
+    font-family: TeshrinBold;
+    font-size: 45px;
+    color: #9C2480;
+}
+
+.content p {
+    font-family: TeshrinLight;
+    font-size: 0.9rem;
+    color: #56575B;
+    padding: 0 1rem 0 0;
+}
+
+.content form input {
+    display: block;
+    width: 28%;
+    padding: 0.2rem;
+    margin: 0.7rem 0;
+    border-radius: 5px;
+    border-color: skyblue;
+}
+
+.content form div {
+    margin-bottom: 0.7rem;
+    margin-left: 7.5rem;
+}
+
+.content form div button {
+    background-color: #9C2480;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-family: TeshrinLight;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.otp-t p {
+    font-size: 0.8rem;
+    margin: 0 0.3rem 0 0;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1rem;
+    padding: 0 1rem;
+}
+
+.register h2 {
+    padding: 0 1rem;
+    font-family: TeshrinLight !important;
+    font-size: 1.5rem !important;
+    background: -webkit-linear-gradient(271.78deg, #BC1F8B -53.4%, #B5218C -39.73%, #A0268E -19.99%, #7E2F91 2.8%, #613694 35.99%, #5E3A95 59.73%, #3C65A0 98.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.register div input {
+    width: 100px;
+    padding: 0.21rem 0;
+    border-radius: 5px 0 0 5px;
+    border-color: skyblue;
+}
+
+.register div button {
+    background: linear-gradient(271.78deg, #BC1F8B -53.4%, #B5218C -39.73%, #A0268E -19.99%, #7E2F91 2.8%, #613694 21.03%, #5E3A95 22.54%, #3C65A0 39.25%, #2287A8 55.96%, #0F9FAE 71.15%, #04AEB2 86.34%, #00B3B3 96.97%, #00B3B3 98.49%);
+    margin: 0 -0.3rem;
+    padding: 0.29rem 1.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-family: TeshrinHairline;
+}
+
+.l-footer img {
+    margin: -15rem 0;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+    padding: -15rem 0;
+}
+
+.footer {
+    width: 100%;
+    height: 28.84px;
+    background: linear-gradient(90deg, #00B3B3 0.03%, #00B3B3 1.03%, #04AEB2 8.02%, #0F9FAE 18.02%, #2287A8 28.02%, #3C65A0 39.01%, #5E3A95 50.01%, #613694 51.01%, #7E2F91 63.01%, #A0268E 78%, #B5218C 91%, #BC1F8B 99.99%);
+}
